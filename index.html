@@ -5,19 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>WEBSTUDIO</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+            integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/styles.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
         
-        <!-- ацуцупацуппуцуп -->
     </head>
     <body>
 <!-- ______________________________Header -->
         <header>
-            <nav>
+            <div class="container header-div">
+            <nav class="header-nav">
                 <a href="./index.html" class="logo" >Web<span class="studio">Studio</span></a>
-                <ul>
+                <ul class="menu">
                     <li>
                         <a href="./index.html" class="link">Studio</a>
                     </li>
@@ -30,7 +33,7 @@
                 </ul>
             </nav>
             <address class="adreska">
-                <ul>
+                <ul class="adreska-ul">
                     <li>
                         <a class="adreska-spys" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
@@ -39,117 +42,128 @@
                     </li>
                 </ul>
             </address>
+            </div>
         </header>
         <main>
 <!-- ______________________________секція 1 -->
-            <section class="section-one">
-                <h1 class="zag"> Effective Solutions for Your Business </h1>
-                <button type="button" class="button">Order Service</button>
+            <section class="section-one section">
+                <div class="container">
+                    <h1 class="zag"> Effective Solutions for Your Business </h1>
+                    <button type="button" class="button">Order Service</button>
+                </div>
             </section>
 <!-- ______________________________секція 2 -->
-            <section>
-                <h2>over strangths</h2>
-                <ul>
-                    <li>
-                        <h3 class="section-two">Strategy</h3>
-                        <p class="par-two">
-                        Our goal is to identify the business problem to walk away with the perfect and creative solution.
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="section-two">Punctuality</h3>
-                        <p class="par-two">
-                         Bring the key message to the brand's audience for the best price within the shortest possible time.
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="section-two">Diligence</h3>
-                        <p class="par-two">
-                        Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
-                        </p>
-                    </li>
-                    <li>
-                        <h3 class="section-two">Technologies</h3>
-                        <p class="par-two">
-                        Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
-                        </p>
-                    </li>
-                </ul>
+            <section class="section">
+                <div class="container">
+                    <h2>over strangths</h2>
+                    <ul>
+                        <li>
+                            <h3 class="section-two">Strategy</h3>
+                            <p class="par-two">
+                            Our goal is to identify the business problem to walk away with the perfect and creative solution.
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="section-two">Punctuality</h3>
+                            <p class="par-two">
+                            Bring the key message to the brand's audience for the best price within the shortest possible time.
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="section-two">Diligence</h3>
+                            <p class="par-two">
+                            Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="section-two">Technologies</h3>
+                            <p class="par-two">
+                            Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
             </section>
 <!-- ______________________________секція 3 -->
-            <section class="section-three">
-                <h2 class="section-three-team">Our Team</h2>
-                <ul>
-                    <li class="section-three-spys">
-                        <img src="./images/img1.jpg" alt="Mark_Guerrero_Product_Designer" width="264" height="260">
-                        <h3 class="section-three-zag">Mark Guerrero</h3>
-                        <p class="section-three-par">Product Designer</p>
-                    </li>
-                    <li class="section-three-spys">
-                        <img src="./images/img2.jpg" alt="Tom_Ford_Frontend_Developer" width="264" height="260">
-                        <h3 class="section-three-zag">Tom Ford</h3>
-                        <p class="section-three-par">Frontend Develope</p>
-                    </li>
-                    <li class="section-three-spys">
-                        <img src="./images/img3.jpg" alt="Camila_Garcia_Marketing" width="264" height="260">
-                        <h3 class="section-three-zag">Camila Garcia</h3>
-                        <p class="section-three-par">Marketing</p>
-                    </li>
-                    <li class="section-three-spys">
-                        <img src="./images/img4.jpg" alt="Daniel_Wilson_Ul_Designer" width="264" height="260">
-                        <h3 class="section-three-zag">Daniel Wilson</h3>
-                        <p class="section-three-par">UI Designer</p>
-                    </li>
-                </ul>
+            <section class="section-three section">
+                <div class="container">
+                    <h2 class="section-three-team">Our Team</h2>
+                    <ul>
+                        <li class="section-three-spys">
+                            <img src="./images/img1.jpg" alt="Mark_Guerrero_Product_Designer" width="264" height="260">
+                            <h3 class="section-three-zag">Mark Guerrero</h3>
+                            <p class="section-three-par">Product Designer</p>
+                        </li>
+                        <li class="section-three-spys">
+                            <img src="./images/img2.jpg" alt="Tom_Ford_Frontend_Developer" width="264" height="260">
+                            <h3 class="section-three-zag">Tom Ford</h3>
+                            <p class="section-three-par">Frontend Develope</p>
+                        </li>
+                        <li class="section-three-spys">
+                            <img src="./images/img3.jpg" alt="Camila_Garcia_Marketing" width="264" height="260">
+                            <h3 class="section-three-zag">Camila Garcia</h3>
+                            <p class="section-three-par">Marketing</p>
+                        </li>
+                        <li class="section-three-spys">
+                            <img src="./images/img4.jpg" alt="Daniel_Wilson_Ul_Designer" width="264" height="260">
+                            <h3 class="section-three-zag">Daniel Wilson</h3>
+                            <p class="section-three-par">UI Designer</p>
+                        </li>
+                    </ul>
+                </div>
             </section>
 
 <!-- ______________________________секція 4 -->
 
-            <section>
-                <h2 class="section-four">Our Portfolio</h2>
-                <ul>
-                        <li>
-                            <img src="./images/img01.jpg" alt="banking" width="360" height="300">
-                            <h3 class="section-four-zag">Banking App</h3>
-                            <p class="section-four-par">App</p>
-                        </li>
-                        <li>
-                            <img src="./images/img02.jpg" alt="marketing" width="360" height="300">
-                            <h3 class="section-four-zag">Cashless Payment</h3>
-                            <p class="section-four-par">Marketing</p>
-                        </li>
-                        <li>
-                            <img src="./images/img03.jpg" alt="meditation" width="360" height="300">
-                            <h3 class="section-four-zag">Meditation App</h3>
-                            <p class="section-four-par">App</p>
-                        </li>
-                        <li>
-                            <img src="./images/img04.jpg" alt="marketing" width="360" height="300">
-                            <h3 class="section-four-zag">Taxi Service</h3>
-                            <p class="section-four-par">Marketing</p>
-                        </li>
-                        <li>
-                            <img src="./images/img05.jpg" alt="design" width="360" height="300">
-                            <h3 class="section-four-zag">Screen Illustrations</h3>
-                            <p class="section-four-par">Design</p>
-                        </li>
-                        <li>
-                            <img src="./images/img06.jpg" alt="marketing" width="360" height="300">
-                            <h3 class="section-four-zag">Online Courses</h3>
-                            <p class="section-four-par">Marketing</p>
-                        </li>
-                </ul>
+            <section class="section">
+                <div class="container">
+                    <h2 class="section-four">Our Portfolio</h2>
+                    <ul>
+                            <li>
+                                <img src="./images/img01.jpg" alt="banking" width="360" height="300">
+                                <h3 class="section-four-zag">Banking App</h3>
+                                <p class="section-four-par">App</p>
+                            </li>
+                            <li>
+                                <img src="./images/img02.jpg" alt="marketing" width="360" height="300">
+                                <h3 class="section-four-zag">Cashless Payment</h3>
+                                <p class="section-four-par">Marketing</p>
+                            </li>
+                            <li>
+                                <img src="./images/img03.jpg" alt="meditation" width="360" height="300">
+                                <h3 class="section-four-zag">Meditation App</h3>
+                                <p class="section-four-par">App</p>
+                            </li>
+                            <li>
+                                <img src="./images/img04.jpg" alt="marketing" width="360" height="300">
+                                <h3 class="section-four-zag">Taxi Service</h3>
+                                <p class="section-four-par">Marketing</p>
+                            </li>
+                            <li>
+                                <img src="./images/img05.jpg" alt="design" width="360" height="300">
+                                <h3 class="section-four-zag">Screen Illustrations</h3>
+                                <p class="section-four-par">Design</p>
+                            </li>
+                            <li>
+                                <img src="./images/img06.jpg" alt="marketing" width="360" height="300">
+                                <h3 class="section-four-zag">Online Courses</h3>
+                                <p class="section-four-par">Marketing</p>
+                            </li>
+                    </ul>
+                </div>
             </section>
         </main>
 <!-- ______________________________ФУТЕР -->
         
         <footer class="footer-block">
-            <a class="logot" href="./index.html">Web<span class="stud">Studio</span></a>
-            <p class="parfoot">
-                Increase the flow of customers and<br />
-                sales for your business with digital<br />
-                marketing & growth solutions.
-            </p>
+            <div class="container">
+                <a class="logot" href="./index.html">Web<span class="stud">Studio</span></a>
+                <p class="parfoot">
+                    Increase the flow of customers and<br />
+                    sales for your business with digital<br />
+                    marketing & growth solutions.
+                </p>
+            </div>
         </footer>
     </body>
 </html> 

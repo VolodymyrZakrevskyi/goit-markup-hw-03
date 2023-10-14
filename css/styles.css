@@ -6,10 +6,24 @@ body {
 a {
     text-decoration: none;
 }
-ul {
+ul, ol {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
-/* аупцупцпцкпцукпцукпцук */
+h1, h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* ------------------------ Header ----------------------- */
 
 .logo {
@@ -47,6 +61,29 @@ ul {
     color: #404bbf;
 }
 
+.adreska-ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    gap: 76px;
+    align-items: center
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+.section {
+    padding: 120px 0;
+}
 /* ------------------------ Секція 1 ----------------------- */
 
 .section-one {
@@ -58,6 +95,8 @@ ul {
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 1.07;
+    width: 496px;
+    height: 120px;
     }
 .button {
     font-family: "Roboto", sans-serif;
@@ -67,8 +106,17 @@ ul {
     text-align: center;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;   
+    letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    padding: 16px 32px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px #00000015;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .button:hover,
 .button:focus {
     background-color: #404BBF;
@@ -105,6 +153,7 @@ ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
 .section-three-zag {
     color: #2e2f42;
@@ -112,6 +161,7 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .section-three-par {
     color: #434455;
