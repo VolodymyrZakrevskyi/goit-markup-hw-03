@@ -16,6 +16,10 @@ h1, h2, h3, p {
     margin-top: 0;
     margin-bottom: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+}
 .container {
     width: 1158px;
     padding-left: 15px;
@@ -25,7 +29,9 @@ h1, h2, h3, p {
 }
 
 /* ------------------------ Header ----------------------- */
-
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
 .logo {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -34,6 +40,8 @@ h1, h2, h3, p {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
+    padding: 24px 0;
 }
 .studio {
     color: #2e2f42;
@@ -88,6 +96,8 @@ h1, h2, h3, p {
 
 .section-one {
     background-color: #2E2F42;
+
+    padding: 188px 0;
 }
 .section-one .zag {
     color: #FFFFFF;
@@ -95,8 +105,8 @@ h1, h2, h3, p {
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 1.07;
-    width: 496px;
     height: 120px;
+    max-width: 496px;
     }
 .button {
     font-family: "Roboto", sans-serif;
@@ -123,7 +133,19 @@ h1, h2, h3, p {
 }
 
 /* ------------------------ Секція 2 ----------------------- */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
 
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .section-two {
     color: #2e2f42;
     font-size: 20px;
@@ -196,7 +218,8 @@ h1, h2, h3, p {
 /* ------------------------ Footeer ----------------------- */
 
 .footer-block {
-    background-color: #2E2F42; 
+    background-color: #2E2F42;
+    padding: 100px 0;
 }
 .footer-block .logot {
     color: #4d5ae5;
@@ -206,6 +229,8 @@ h1, h2, h3, p {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-block .stud {
     color: #f4f4fd;
@@ -214,6 +239,7 @@ h1, h2, h3, p {
     color: #f4f4fD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 
